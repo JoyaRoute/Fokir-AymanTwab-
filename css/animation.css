@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.a {
+    overflow: hidden;
+    color: #fff;
+    height: 40px;
+    bottom: 0;
+    width: 50px;
+    animation-name: test;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    border-right: 2px #fff solid;
+    text-align: left;
+    position: relative;
+}
+
+.t1 {
+    animation-name: t;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    font-size: 26px;
+    margin: 0;
+    visibility: hidden;
+    position: absolute;
+color: #fff;
+}
+.t2 {
+    animation-name: t;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    font-size: 27px;
+    margin: 0;
+    visibility: hidden;
+    position: absolute;
+    animation-delay: 3s;
+    color: #fff;
+
+}
+.t3 {
+    animation-name: t;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    font-size: 27px;
+    margin: 0;
+    visibility: hidden;
+    position: absolute;
+    animation-delay: 6s;
+color: #fff;
+
+}
+
+@keyframes test {
+    0% {
+        width: 0;
+    }
+
+    11.11% {
+        width: 120px;
+    }
+
+    22.22% {
+        width: 120px;
+
+    }
+
+    33.33% {
+        width: 0px;
+    }
+
+    44.44% {
+        width: 136px;
+    }
+
+    55.55% {
+        width: 136px;
+    }
+
+    66.66% {
+        width: 0px;
+    }
+
+    77.77% {
+        width: 102px;
+    }
+
+    88.88% {
+        width: 102px;
+    }
+    99.99%
+{
+    width: 0;
+}
+}
+
+
+@keyframes t {
+0% {
+    visibility: visible;
+}
+
+11.11% {
+    visibility:visible;
+}
+
+22.22% {
+    visibility:visible;
+}
+
+33.33% {
+    visibility: hidden;
+}
+
+44.44% {
+    visibility: hidden;
+}
+
+55.55% {
+    visibility: hidden;
+}
+
+66.66% {
+    visibility: hidden;
+}
+
+77.77% {
+    visibility: hidden;
+}
+
+88.88% {
+    visibility: hidden;
+}
+99.99% {
+    visibility: hidden;
+}
+}
